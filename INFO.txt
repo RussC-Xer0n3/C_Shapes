@@ -1,0 +1,93 @@
+My Notes and TODO's
+//TODO: Test Cases and assertions
+//TODO: Primitives
+//TODO: Coordinates DONE - for now at least
+//TODO: Calculations for area, volume, surface and sections
+//TODO: Corrective and preventitive
+//TODO: Distancing and Meshing
+//TODO: SIG's
+//TODO: Ethics and Misuse Cases
+//TODO: Corrective and preventitive
+//TODO: Geoloc
+//TODO: Sockets
+//TODO: Corrective and preventitive
+//TODO: Auth requests
+
+/*
+Header files typically storing the constants, macros
+system wide globals and function prototypes. Included
+using #include <> for system or #include "" personal.
+*/
+
+/*Define the assertions and failures in the coordinate system*/
+//TODO: gyroscope?
+//TODO: blackbox**3 error checking
+//TODO: preliminary testcases
+//TODO: preventitive, corrective, reporting and logging
+//TODO: default to
+
+/*Define the angular functions for the coordinate system*/
+//TODO: 90 degrees 
+//TODO: 180 degreees
+//TODO: 360 degrees
+//TODO: PI mirroring
+
+/*Define the directional functions for the coordinate system*/
+//TODO: PI mirroring
+//TODO: Trig
+
+/*Define the corrections for the coordinate system*/
+//TODO: based on prelims and assertons
+
+/*Define the failsafes for the coordinate system*/
+//TODO: based on prelims and assertons
+
+/*define the behaviour for the coordinate system*/
+//TODO: based on prelims and assertons and thereafter
+
+################################
+###REUSEABLE Coordinates CODE ##
+###AUTHOR: XER0N3 - RUSSELLAEC##
+###DATES: VARIOUSS            ##
+################################
+
+switch (coords) {
+        case point.x != 0:
+            sum = point.x * (point.y || point.z);
+            break;
+        case point.y != 0:
+            sum = point.y * (point.x || point.z);
+            break;
+        case point.z != 0:
+            sum = point.z * (point.y || point.x);
+            break;
+        default:
+            break;
+    }
+    if ((point.x != 0 && point.y != 0) || (point.x != 0 && point.z !=0)) {
+        switch (coords){
+            case point.y != 0:
+                sum = (point.x * point.y);
+                break;
+            case point.z != 0:
+                sum = point.x * point.z;
+                break;
+            }
+    } else if ((point.z != 0 && point.y != 0) || (point.z != 0 && point.x !=0)){
+        switch (coords) {
+            case point.y != 0:
+                sum = (point.z * point.y);
+                break;
+            case point.x != 0:
+                sum = (point.z * point.x);
+                break;
+        }
+    } else {
+        switch (coords) {
+            case point.z != 0:
+                sum = (point.y * point.z);
+            case point.x != 0:
+                sum = (point.y * point.x);   
+                break;
+        }
+    }

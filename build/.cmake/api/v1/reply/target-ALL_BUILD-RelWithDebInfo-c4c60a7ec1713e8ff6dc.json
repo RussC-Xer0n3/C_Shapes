@@ -1,0 +1,60 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Debug_Lib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Assertions::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Pyramid::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Torus::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Cuboids::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Rhombus::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "E_Sphere::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Test_Cases::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lon_Lat_Hoz::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

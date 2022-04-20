@@ -1,0 +1,17 @@
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Experimental.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Continuous.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Nightly.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Test_Cases.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Debug_Lib.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Assertions.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/E_Sphere.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Pyramid.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Torus.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Cuboids.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Rhombus.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/Lon_Lat_Hoz.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/PACKAGE.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/xer0n3/C_Projects.ndo/build/CMakeFiles/ZERO_CHECK.dir
